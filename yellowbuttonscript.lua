@@ -10,9 +10,11 @@ local function onClick()
 	wait(2)
 	YellowCorner.Transparency = 1
 	YellowCorner.CanCollide = false
+	print("Corner Gone")
 	wait(2)
 	YellowCorner.Transparency = 0
 	YellowCorner.CanCollide = true
+	print("Corner Returned")
 	
 end
 
